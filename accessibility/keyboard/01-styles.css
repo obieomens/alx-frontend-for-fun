@@ -657,11 +657,11 @@
   }
     
   .card-work .card-title {
+    opacity: 0;
     text-align: center;
     margin: 0;
     height: 100%;
     position: relative;
-    opacity: 0;
   }
 
   .card-work .card-title a:focus,
