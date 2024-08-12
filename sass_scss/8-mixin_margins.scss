@@ -1,0 +1,12 @@
+/*mixin for setting left and right margins*/
+@mixin margin-lr($left-right){
+    margin-left: $left-right;
+    margin-right: $left-right;
+}
+body {
+    @include margin-lr(10px);
+}
+div {
+    @include margin-lr(15px);
+}
+
