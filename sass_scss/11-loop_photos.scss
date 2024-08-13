@@ -1,0 +1,9 @@
+/*Sass file that creates a class for each name in the list*/
+// Import the list of names
+@import '11-photos.scss';
+
+@each $name in $list-names {
+  .#{$name} {
+    background-image: url('#{$name}.png');
+  }
+}
