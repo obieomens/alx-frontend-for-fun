@@ -1,10 +1,13 @@
 /*nested fonts*/
 body {
-    font: 14px;
+    font-size: 14px;
+  
     h1 {
-        font: 16px;
+      font-size: 16px;
+  
+      &.smaller {
+        font-size: 12px;
+      }
     }
-    h1.smaller {
-        font: 12px;
-    }
-}
+  }
+  
