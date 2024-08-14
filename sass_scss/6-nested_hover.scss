@@ -1,7 +1,8 @@
 /*nested file that assignes a text color to a button tag*/
 button {
     color: #FF0000;
-&:hover {
+    
+:hover {
       color: #00FF00;
     }
   }
