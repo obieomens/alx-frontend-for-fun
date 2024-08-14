@@ -1,17 +1,13 @@
 /* assigning a text color*/
 $text-color: #3D3D3D;
 $background-color: #6D6D6D;
-body {
-    color: $text-color;
-    color: $background-color;
+
+body, p {
+  color: $text-color;
 }
 
-p {
-    color: $text-color;
+body, h2 {
+  background-color: $background-color;
 }
 
-
-h2 {
-    color: $background-color;
-}
 
